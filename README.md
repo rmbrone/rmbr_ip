@@ -1,6 +1,6 @@
 # flutter_ip
 
-Flutter plugin - Get `External IP`, `Internal IP` address for *wifi*, *cellular* and *wire*.
+Flutter plugin - Get `External IP`, `Internal IP` address for *wifi*, *cellular* and *wired*.
 
 English | [简体中文](./README-zh_CN.md)
 

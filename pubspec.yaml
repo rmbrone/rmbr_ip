@@ -1,8 +1,8 @@
 name: flutter_ip
-description: Flutter plugin - Get ip address for wifi, cellular and wire.
+description: Flutter plugin - Get External IP, Internal IP address for wifi, cellular and wired.
 version: 0.0.1
-author:
-homepage:
+author: wenyan <nik.lee.nyc@gmail.com>
+homepage: https://github.com/shadow-app/flutter_ip
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
