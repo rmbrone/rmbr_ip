@@ -15,6 +15,7 @@ class _MyAppState extends State<MyApp> {
   String _internalIP = 'Unknown';
   String _externalIP = 'Unknown';
   String _networkType = "Unknown";
+  Color _typeColor = Colors.yellow;
 
   @override
   void initState() {
@@ -61,6 +62,28 @@ class _MyAppState extends State<MyApp> {
 
     setState(() {
       _networkType = networkType;
+      switch (_networkType) {
+        case 'wired':
+          {
+            _typeColor = Colors.yellow;
+            break;
+          }
+        case 'wifi':
+          {
+            _typeColor = Colors.red.withOpacity(0.5);
+            break;
+          }
+        case 'cellular':
+          {
+            _typeColor = Colors.lightBlue.withOpacity(0.5);
+            break;
+          }
+        default:
+          {
+            _typeColor = Colors.transparent;
+            break;
+          }
+      }
     });
   }
 
@@ -88,7 +111,7 @@ class _MyAppState extends State<MyApp> {
               SizedBox(
                 width: 5,
               ),
-              Text('flutter_ip v1',
+              Text('flutter_ip',
                   style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w200,
@@ -107,7 +130,7 @@ class _MyAppState extends State<MyApp> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Text(
-                  'Internal IP Address',
+                  'Internal IP',
                   style: titleStyle,
                 ),
                 Padding(
@@ -118,7 +141,7 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ),
                 Text(
-                  'External IP Address',
+                  'External IP',
                   style: titleStyle,
                 ),
                 Padding(
@@ -136,7 +159,7 @@ class _MyAppState extends State<MyApp> {
                   padding: const EdgeInsets.only(bottom: 20.0, top: 5),
                   child: Text(
                     '$_networkType\n',
-                    style: resultStyle,
+                    style: resultStyle.copyWith(backgroundColor: _typeColor),
                   ),
                 ),
               ],
