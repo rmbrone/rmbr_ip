@@ -1,7 +1,7 @@
 # flutter_ip
 
 <p align="left">
-  <a href="https://pub.dartlang.org/packages/flutter_audio_recorder"><img alt="pub version" src="https://img.shields.io/pub/v/flutter_ip.svg?style=flat-square"></a>
+  <a href="https://pub.dartlang.org/packages/flutter_ip"><img alt="pub version" src="https://img.shields.io/pub/v/flutter_ip.svg?style=flat-square"></a>
   <a href="https://github.com/Solido/awesome-flutter">
    <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
 </a>
