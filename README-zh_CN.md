@@ -7,7 +7,7 @@
 </a>
 </p>
 
-English | [简体中文](./README-zh_CN.md)
+简体中文 | [English](./README.md)
 
 Flutter 插件 - 获取 **外网IP** 及 **内网IP** - 支持的网络环境： `手机4G 或 Wi-Fi 或 有线` (目前支持iOS)
 
