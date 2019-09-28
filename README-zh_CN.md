@@ -17,8 +17,10 @@ Flutter 插件 - 获取 **外网IP** 及 **内网IP** - 支持的网络环境：
 加 `flutter_ip` to 到 `pubspec.yaml`
 ```
   dependencies:
-    flutter_ip: ^0.1.2
+    flutter_ip: ^0.1.4
 ```
+
+## iOS前提 - `iOS Deployment Target 10.0`
 
 ## 引入
 ```

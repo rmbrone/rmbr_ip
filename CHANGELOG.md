@@ -1,3 +1,6 @@
+## 0.1.4
+Update Documentation for iOS requirement section.
+
 ## 0.1.2
 Fix pub link.
 
