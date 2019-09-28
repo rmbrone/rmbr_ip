@@ -16,7 +16,7 @@ Flutter plugin - Get `External IP`, `Internal IP` address for *wifi*, *cellular*
 add `flutter_ip` to your `pubspec.yaml`
 ```
   dependencies:
-    flutter_ip: ^0.1.0
+    flutter_ip: ^0.1.2
 ```
 
 ## Import

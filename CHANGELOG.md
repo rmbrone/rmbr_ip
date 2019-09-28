@@ -1,3 +1,6 @@
+## 0.1.2
+Fix pub link.
+
 ## 0.1.0
 Documentation for EN and ZH.
 
