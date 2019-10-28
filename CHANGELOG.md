@@ -1,3 +1,6 @@
+## 0.2.0
+Fix iOS version missing and remove ipfy pkg usage
+
 ## 0.1.4
 Update Documentation for iOS requirement section.
 

@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_ip'
-  s.version          = '0.0.1'
+  s.version          = '0.2.0'
   s.summary          = 'Flutter plugin - Get ip address for wifi, cellular and wire.'
   s.description      = <<-DESC
 Flutter plugin - Get ip address for wifi, cellular and wire.
@@ -15,7 +15,7 @@ Flutter plugin - Get ip address for wifi, cellular and wire.
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'Ipify'
+  s.swift_version = '4.0'
 
   s.ios.deployment_target = '8.0'
 end
